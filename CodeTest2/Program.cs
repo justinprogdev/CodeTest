@@ -9,7 +9,7 @@ using CommonLibrary.Helpers;
 //Get Data
 var data = DataHelper.GetData("football.dat");
 
-//Parse by day and spread ( max tmp, min temp, column to print)
+//Parse by day and spread ( max pts, min pts, column to print)
 var parsedData = data.ParseData(6, 8, 1);
 
 var team = parsedData.GetItemByMinimumSpread();
