@@ -1,4 +1,6 @@
-﻿namespace CommonLibrary.Helpers
+﻿using CommonLibrary.Extensions;
+
+namespace CommonLibrary.Helpers
 {
     public static class DataHelper
     {

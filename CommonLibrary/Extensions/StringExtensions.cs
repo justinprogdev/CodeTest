@@ -1,6 +1,6 @@
-﻿namespace CommonLibrary.Helpers
+﻿namespace CommonLibrary.Extensions
 {
-    public static class StringHelper
+    public static class StringExtensions
     {
         /// <summary>
         /// Checks a given string to see if it's numeric
