@@ -16,7 +16,6 @@ namespace CommonLibrary.Helpers
             var path = Path.Combine(Directory.GetCurrentDirectory(), "Data", fileName);
             string[] lines = ReadFile(path);
 
-            //Split out white space
             List<string[]> records = new List<string[]>();
 
             //Don't include header or footer
@@ -39,7 +38,7 @@ namespace CommonLibrary.Helpers
         /// <returns></returns>
         public static Dictionary<string, float> ParseData(this List<string[]> data, int columnA, int columnB, int printRecord)
         {
-            //Parse by day and spread
+
             var parsedData = new Dictionary<string, float>();
 
             foreach (var record in data)
